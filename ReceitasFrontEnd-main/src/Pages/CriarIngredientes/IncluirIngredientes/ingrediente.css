@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+  .inclusao-button .p-button {
+    min-width: 100%;
+  }
+
+  .inclusao-container h1 {
+    font-size: 15%;
+    color: red;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 1050px) {
+  .inclusao-button .p-button {
+    min-width: 30%;
+  }
+}
+
+.inclusao-container {
+  padding: 5% 5%;
+  width: 70% !important;
+}
+
+.inclusao-container h1 {
+  font-size: 45px;
+  margin-bottom: 3%;
+  color: black;
+}
+
+.inclusao-frame {
+  width: 100%;
+  color: #4f4f4f;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .inclusao-frame .p-inputtext {
+    height: 56px;
+    margin-bottom: 5%;
+    border: 1px solid #828282;
+    margin-top: 1%;
+} */
+
+.inclusao-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inclusao-button .p-button {
+  width: 20%;
+  background-color: green;
+}
+
+.p-dropdown{
+  width: 100% !important;
+  height: 4.5vh !important;
+  margin-bottom: 3%;
+}
+
+.p-dropdown-label{
+  height: 100%;
+}

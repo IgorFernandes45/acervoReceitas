@@ -1,0 +1,88 @@
+@media screen and (max-width: 430px){
+    .container{
+        width: 100%;
+    }
+
+    .fitting{
+        display: none;
+    }
+
+    .login{
+        min-width: 100%;
+    }
+}
+
+.container{
+    max-width:100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #2B2B2B;
+    display: flex;
+    max-height:fit-content;
+}
+
+.fitting{
+    width: 67%;
+    height:100vh;   
+}
+.login{
+    
+    background-color:#2B2B2B;
+    width:33%;
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.pull-everybody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 10%;
+}
+
+.pull-everybody .logo{
+    margin-bottom: 5%;
+}
+.pull-everybody label{
+    color:white;
+    font-family: Roboto;
+    margin: 1.5% 0;
+}
+
+form{
+    width: 100%;
+}
+
+.p-inputtext{
+    width: 100%;
+
+}
+
+.p-password{
+    width: 100%;
+}
+
+.p-button{
+    width: 100%;
+    background-color: #0278D3;
+    border-radius: 0;
+    
+}
+
+
+.Register{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.login a{
+    text-decoration: none;
+    color: #009BE7; 
+    display:flex;
+    justify-content: center;
+}

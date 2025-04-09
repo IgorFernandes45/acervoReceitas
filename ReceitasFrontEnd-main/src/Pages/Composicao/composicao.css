@@ -1,0 +1,102 @@
+@media screen and (max-width: 670px){
+
+
+  .wallet-container{
+    width: 100% !important;
+  }
+  .wallet-buttons-container{
+    width: 75% !important;
+  }
+  .wallet-buttons-container .p-button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+  }
+  .wallet-buttons-container .p-splitbutton {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+  }
+  
+  .wallet-text{
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+  .wallet-first-button{
+    margin-left: 3% !important;
+  }
+  .wallet-last-button .p-button{
+   width: 70%;
+  }
+
+  
+}
+
+.wallet-container {
+  width: 85%;
+  height: 90vh;
+  display: flex;
+}
+
+.wallet-main-content {
+  padding: 2% 5%;
+  min-width: 100%;
+}
+.wallet-main-content h1 {
+  font-size: 42px;
+  margin-bottom: 4%;
+}
+
+.wallet-menu{
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.wallet-text{
+  width: 25%;
+}
+
+.wallet-text .p-float-label{
+  width: 100%;
+}
+
+.wallet-first-button{
+
+  margin-left: 5%;
+}
+
+.wallet-last-button{
+  margin-right: 0;
+}
+.wallet-buttons-container{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.wallet-buttons-container .p-button{
+  height: 100%;
+ 
+}
+
+.wallet-buttons-container .p-splitbutton{
+  height: 100%;
+}
+
+.wallet-main-content .p-inputtext {
+  width: 100%;
+  border: 1px solid #828282;
+}
